@@ -1,0 +1,28 @@
+/* Styles.css or a relevant CSS file */
+.upload-container {
+    border: 2px dashed #007bff; /* Dotted border color */
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .upload-label {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .upload-icon {
+    font-size: 40px;
+    color: #007bff; /* Icon color */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .upload-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff; /* Text color */
+  }
+  

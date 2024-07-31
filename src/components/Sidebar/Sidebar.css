@@ -1,0 +1,20 @@
+.sidebar {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 60px; /* Adjust as needed */
+  z-index: 1050; /* Ensure it is higher than the header */
+  padding: 2rem;
+  background-color: #f8f9fa; /* Optional: To make sure the background color is visible */
+}
+
+.menu-icon {
+  position: absolute;
+  top: 30px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  z-index: 1100; /* Ensure it is higher than both the header and sidebar */
+}
+
+.nav-icon {
+  font-size: 30px; /* Adjust icon size as needed */
+}

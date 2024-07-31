@@ -1,0 +1,127 @@
+.filter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    min-width: 120px;
+    margin-right: 20px;
+  }
+  
+  .search-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-field {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .create-button {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    margin-bottom: 20px;
+  }
+  
+  .reject-button {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+.table-custom {
+  background-color: #f8f9fa; /* Light background for the table */
+  border: 1px solid #ffffff; /* White border for the table */
+}
+
+/* Border and padding for table cells */
+table-custom td, .table-custom th {
+  border: 1px solid #ffffff; /* White border for table cells */
+  padding: 8px; /* Padding inside table cells */
+}
+
+/* Purple background for the index column */
+.table-custom .index {
+  background-color: #6f42c1; /* Purple background color for the index column */
+  color: #ffffff; /* White text color for better contrast */
+}
+
+/* Larger size for the "Action Buttons" column */
+.table-custom .action-buttons {
+  background-color: #d6e9f0; /* Lighter blue background for the "Action Buttons" column */
+  font-size: 1.25rem; /* Larger text size */
+}
+.index-column {
+  background-color: purple;
+  color: white;
+}
+
+.table-container {
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid black; /* Black borders for columns */
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #44488C; 
+  color: #ffffff;
+
+}
+
+.index-column {
+  width: 100px; /* Adjust width as needed */
+}
+
+.table-container {
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.index-column {
+  background-color: #6f42c1; 
+  color: #ffffff; 
+}
+
+.table th, .table td {
+  border: 1px solid #d9caca; 
+  padding: 5px;
+}
+
+.table td {
+  vertical-align: middle; /* Center align vertically */
+}
+
+.table .btn-group {
+  margin-right: 10px; /* Space between dropdown and other buttons */
+}
+
+.table .btn {
+  margin-left: 5px; /* Space between buttons */
+}
+
+.custom-color{
+  color: #6B54C8;
+}
+.bg-success{
+  background-color: #e4dede !important;
+}
